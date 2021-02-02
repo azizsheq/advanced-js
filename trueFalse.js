@@ -9,7 +9,7 @@ else{
     console.log("condition is false");
 }
 // const name = "Salman";
-const name = "";
+const name = undefined;
 // all string are TRUE except empty string such as "" but if the string having a empty space inside it then it's also TRUE
 // only empty string "" is FALSE in js
 if(name){
