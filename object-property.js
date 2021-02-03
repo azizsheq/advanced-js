@@ -11,14 +11,19 @@ const student= [
 const names = student.map(std => std.name);
 console.log(names);
 
+
 const ids = student.map(std => std.id);
 console.log(ids);
+
 
 const bigger = student.filter(std => std.id > 40);
 console.log(bigger);
 
+
 const biggerOne = student.find(std => std.id > 40);
 console.log(biggerOne);
+
+
 // const nameArray = [];
 // for (let i = 0; student.length; i++) {
 //     let element = student[i].name;
